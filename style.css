@@ -1,0 +1,130 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-family: 'Roboto Mono', monospace;
+  margin: 0;
+  min-height: 100%;
+}
+
+.body {
+  max-width: 840px;
+  margin: 16px 8px 16px 8px;
+}
+
+.p-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.p-list p {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 35%;
+          flex: 1 1 35%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px 24px 16px 24px;
+  margin: 8px;
+  text-align: center;
+  font-size: 125%;
+}
+
+.p-list p:hover {
+  background-color: #f7f7f7;
+}
+
+.i-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+.i-list p {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px 24px 16px 24px;
+  margin: 8px;
+  font-size: 125%;
+}
+
+.i-list p p {
+  margin-right: 8px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 60%;
+          flex: 1 1 60%;
+}
+
+.i-list p span.i-span {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40%;
+          flex: 1 1 40%;
+  text-align: right;
+  display: block;
+  font-weight: bolder;
+  margin-left: 8px;
+}
+
+.i-list p:hover {
+  background-color: #f7f7f7;
+}
+
+abbr {
+  text-decoration: none;
+}
+
+/* Made by Thundiverter */
+#madebythundiverter {
+  width: 100vw;
+  margin-top: auto;
+  padding: 12px 0px 12px 0px;
+  background-color: #1F4E79;
+  color: #fff;
+  font-size: 90%;
+  text-align: center;
+}
+
+#madebythundiverter a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#madebythundiverter a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */

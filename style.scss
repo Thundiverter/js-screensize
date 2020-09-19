@@ -1,0 +1,78 @@
+body {
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    position: absolute; left: 0; right: 0;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    min-height: 100%;
+}
+
+.body {
+    max-width: 840px;
+    margin: 16px 8px 16px 8px;
+}
+
+.p-list {
+    display: flex; flex-wrap: wrap; justify-content: center;
+    width: 100%;
+    margin-bottom: 16px;
+    p {
+        flex: 1 1 35%;
+        border: 1px solid #ccc;
+            border-radius: 8px;
+        padding: 16px 24px 16px 24px;
+        margin: 8px;
+        text-align: center;
+        font-size: 125%;
+        &:hover {
+            background-color: darken(white, 3%);
+        }
+    }
+}
+
+.i-list {
+    display: flex; flex-direction: column;
+    max-width: 100%;
+    margin-top: 16px;
+    p {
+        flex: 1 1 auto;
+        display: flex; justify-content: space-between;
+        border: 1px solid #ccc;
+            border-radius: 8px;
+        padding: 16px 24px 16px 24px;
+        margin: 8px;
+        //text-align: center;
+        font-size: 125%;
+        p {
+            margin-right: 8px;
+            flex: 1 1 60%;
+        }
+        span.i-span {
+            flex: 1 1 40%;
+            text-align: right;
+            display: block;
+            font-weight: bolder;
+            margin-left: 8px;
+        }
+        &:hover {
+            background-color: darken(white, 3%);
+        }
+    }
+}
+
+abbr {
+    text-decoration: none;
+}
+
+/* Made by Thundiverter */
+#madebythundiverter {
+    //position: absolute; bottom: 0;
+    width: 100vw;
+    margin-top: auto;
+    padding: 12px 0px 12px 0px;
+    background-color: #1F4E79;
+    color: #fff; font-size: 90%;
+    text-align: center;
+    a { color: #fff; text-decoration: none;
+        &:hover { text-decoration: underline; }
+    }
+}
